@@ -593,18 +593,12 @@ pcDirections <- function() {
 getPcUrl <- function() {
     url <- NULL
     
-<<<<<<< HEAD
-    curUrl <- paste0("http://purl.org/pc2/", getOption("pc.version"), "/")
-    tmpVersion <- as.numeric(getOption("pc.version")) + 1 
-    nextUrl <- paste0("http://purl.org/pc2/", tmpVersion, "/")
-=======
     #baseUrl <- "http://www.pathwaycommons.org/pc2"
     baseUrl <- "http://purl.org/pc2/"
     
     curUrl <- paste0(baseUrl, getOption("pc.version"), "/")
     tmpVersion <- as.numeric(getOption("pc.version")) + 1 
     nextUrl <- paste0(baseUrl, tmpVersion, "/")
->>>>>>> c6afadaedede6d990fc76a5d364f7bef52c800ab
     
     if(url.exists(curUrl)) {
         url <- curUrl
