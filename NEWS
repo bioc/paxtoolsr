@@ -1,23 +1,26 @@
-# Version 1.1.11
+# Version 1.0.12
+Minor
+
+# Version 1.0.11
 Documentation update
 
-# Version 1.1.10
+# Version 1.0.10
 Changed vignette to use quicker examples
 Changed DESCRIPTION
 
-# Version 1.1.9
+# Version 1.0.9
 Documentation update
 
-# Version 1.1.8
+# Version 1.0.8
 Removed PC dependent tests for paxtools functions
 Added skip_on_bioc()
 Updated vignette to use glycolysis pathway that can be converted to gene set
 Added fill=TRUE to read.table commands in paxtools.R
 
-# Version 1.1.6
+# Version 1.0.6
 Added RStudio files and README.md
 
-# Version 1.1.5
+# Version 1.0.5
 Updated to paxtools 4.3
 Added better Java error messages
 Added the ability to switch PC versions
